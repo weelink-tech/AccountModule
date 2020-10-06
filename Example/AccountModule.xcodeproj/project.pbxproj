@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		049EB66C252C846000B713FE /* Target_Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB66B252C846000B713FE /* Target_Account.swift */; };
+		049EB67B252C91FF00B713FE /* AccountLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB67A252C91FF00B713FE /* AccountLoginViewController.swift */; };
+		049EB67D252C924900B713FE /* AccountUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB67C252C924900B713FE /* AccountUserService.swift */; };
+		049EB67F252C932D00B713FE /* AccountRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB67E252C932D00B713FE /* AccountRegisterViewController.swift */; };
+		049EB681252C937200B713FE /* AccountUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB680252C937200B713FE /* AccountUserViewController.swift */; };
 		07EFDD9782016C4E68827A7A /* Pods_AccountModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA1FBB029678FC8BBE61C77 /* Pods_AccountModule_Tests.framework */; };
 		0868F25875765CC8B2F6EACB /* Pods_AccountModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8D86A1DDD25B1DA1D9705 /* Pods_AccountModule_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -30,6 +34,10 @@
 
 /* Begin PBXFileReference section */
 		049EB66B252C846000B713FE /* Target_Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Account.swift; sourceTree = "<group>"; };
+		049EB67A252C91FF00B713FE /* AccountLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountLoginViewController.swift; sourceTree = "<group>"; };
+		049EB67C252C924900B713FE /* AccountUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUserService.swift; sourceTree = "<group>"; };
+		049EB67E252C932D00B713FE /* AccountRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRegisterViewController.swift; sourceTree = "<group>"; };
+		049EB680252C937200B713FE /* AccountUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUserViewController.swift; sourceTree = "<group>"; };
 		179DF7A58B8FEAE7242E2887 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3739CD4CA446B0A93434DD47 /* AccountModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AccountModule.podspec; path = ../AccountModule.podspec; sourceTree = "<group>"; };
 		3A01BD946FE5158B2710A56D /* Pods-AccountModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AccountModule_Tests/Pods-AccountModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +79,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049EB679252C917200B713FE /* AccountModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AccountModule;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +110,14 @@
 		607FACD21AFB9204008FA782 /* Example for AccountModule */ = {
 			isa = PBXGroup;
 			children = (
+				049EB679252C917200B713FE /* AccountModule */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				049EB67A252C91FF00B713FE /* AccountLoginViewController.swift */,
+				049EB67E252C932D00B713FE /* AccountRegisterViewController.swift */,
+				049EB680252C937200B713FE /* AccountUserViewController.swift */,
 				049EB66B252C846000B713FE /* Target_Account.swift */,
+				049EB67C252C924900B713FE /* AccountUserService.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -333,7 +353,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049EB67D252C924900B713FE /* AccountUserService.swift in Sources */,
+				049EB67B252C91FF00B713FE /* AccountLoginViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				049EB67F252C932D00B713FE /* AccountRegisterViewController.swift in Sources */,
+				049EB681252C937200B713FE /* AccountUserViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				049EB66C252C846000B713FE /* Target_Account.swift in Sources */,
 			);

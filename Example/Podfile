@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/weelink-tech/AccountModule.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'AccountModule_Example' do
   pod 'AccountModule', :path => '../'
 

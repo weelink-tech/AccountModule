@@ -1,0 +1,6 @@
+framework module AccountModule {
+  umbrella header "AccountModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

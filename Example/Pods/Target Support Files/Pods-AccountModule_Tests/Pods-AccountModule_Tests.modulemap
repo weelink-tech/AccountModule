@@ -1,0 +1,6 @@
+framework module Pods_AccountModule_Tests {
+  umbrella header "Pods-AccountModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
